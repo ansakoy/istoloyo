@@ -1,0 +1,7 @@
+title: Istoloyo
+markdown: redcarpet
+baseurl: /istoloyo
+twitter_username: ansakoy
+github_username: ansakoy
+facebook_username: anna.sakoyan
+exclude: ['README.md']

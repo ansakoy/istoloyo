@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Istoloyo</title>
+    <meta charset="utf-8" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width-device=width, initial-scale=1.0">
+</head>
+    
+<body class="body">
+
+    <header class="mainheader">
+        <h1>istoloyo</h1>
+        {% include nav.html %}
+    </header>
+    
+    <div class="maincontent">
+        {{content}}
+    </div>
+    <div class="topsideright">
+        <article>
+            <h2>Resent Posts</h2>
+            <ul>
+            {% for post in site.posts limit: 5 %}
+            <li>
+                <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
+            </li>
+            {% endfor %}
+            </ul>
+        </article>
+    </div>
+    <div class="middlesideright">
+        <article>
+            <h2>Contacts</h2>
+            <ul>
+            {% if site.twitter_username %}
+              <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}">
+                  <i class="fa fa-twitter"></i> Twitter
+                </a>
+              </li>
+            {% endif %}
+            {% if site.github_username %}
+              <li>
+                <a href="https://github.com/{{ site.github_username }}">
+                  <i class="fa fa-github"></i> GitHub
+                </a>
+              </li>
+            {% endif %}
+            {% if site.facebook_username %}
+              <li>
+                <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                  <i class="fa fa-facebook"></i> Facebook
+                </a>
+              </li>
+            {% endif %}   
+            </ul>
+            
+        </article>
+    </div>
+   <div class="bottomsideright">
+        <article>
+            <h2>Placeholder</h2>
+            <p>(for now)</p>
+        </article>
+    </div>
+    
+    <footer class="mainfooter">
+        <p>Copyleft (cc)</p>
+    </footer>
+</body>
+</html>
