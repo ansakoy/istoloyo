@@ -125,3 +125,15 @@ a:hover, a:active {
     margin: 2% auto;
     color: #EBF0F2;
 }
+
+.socialmedia {
+    list-style-type: none;
+}
+
+.recentposts {
+    list-style-type: none;
+}
+
+.socialmediaitem {
+    text-decoration: none;
+}

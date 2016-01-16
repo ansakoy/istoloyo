@@ -23,7 +23,7 @@
     <div class="topsideright">
         <article>
             <h2>Resent Posts</h2>
-            <ul>
+            <ul class="recentposts">
             {% for post in site.posts limit: 5 %}
             <li>
                 <a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a>
@@ -35,24 +35,24 @@
     <div class="middlesideright">
         <article>
             <h2>Contacts</h2>
-            <ul>
+            <ul class="socialmedia">
             {% if site.twitter_username %}
               <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}">
+                <a href="https://twitter.com/{{ site.twitter_username }}" class="socialmediaitem" target="_blank">
                   <i class="fa fa-twitter"></i> Twitter
                 </a>
               </li>
             {% endif %}
             {% if site.github_username %}
               <li>
-                <a href="https://github.com/{{ site.github_username }}">
+                <a href="https://github.com/{{ site.github_username }}" class="socialmediaitem" target="_blank">
                   <i class="fa fa-github"></i> GitHub
                 </a>
               </li>
             {% endif %}
             {% if site.facebook_username %}
               <li>
-                <a href="https://www.facebook.com/{{ site.facebook_username }}">
+                <a href="https://www.facebook.com/{{ site.facebook_username }}" class="socialmediaitem"  target="_blank">
                   <i class="fa fa-facebook"></i> Facebook
                 </a>
               </li>
