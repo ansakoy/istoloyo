@@ -4,7 +4,7 @@ title: Hello world
 meta: test post
 source: http://www.datadrivenjournalism.ru/
 category: discoveries
-post.post_author: ansakoy
+post_author: ansakoy
 ---
 
 # Hello world

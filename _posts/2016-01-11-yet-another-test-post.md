@@ -4,7 +4,7 @@ title: Yet Another Test Post
 meta: test post
 source: http://www.datadrivenjournalism.ru/
 category: test
-post.post_author: ansakoy
+post_author: ansakoy
 ---
 
 # Yet Another Test Post
