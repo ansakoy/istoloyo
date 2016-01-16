@@ -1,6 +1,6 @@
 ---
-layout: news-article
-title: Hello world
+layout: post
+title: Code Snippet
 meta: yet another helloworld
 source: http://www.datadrivenjournalism.ru/
 category: discoveries

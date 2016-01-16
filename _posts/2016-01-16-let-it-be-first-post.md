@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: post
 title: Let it be the first post
 meta: test post hello world
 category: disclaimers
-post.post_author: ansakoy
+post_author: ansakoy
 ---
 
 Сим отмечается рождение очередного Jekyll-блога.

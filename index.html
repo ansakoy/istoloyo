@@ -7,7 +7,7 @@ layout: default
     <div class="content">
     <article>
             <header><a href="{{post.url | prepend: site.baseurl}}"><h2>{{post.title}}</h2></a></header>
-            <footer class="postinfo"><p>by {{post.post_author}}</p></footer>
+            <footer class="postinfo"><p>by {{post.post_author}}, {{page.date | date: "%m/%d/%Y"}}</p></footer>
             <div>
                 <p>{{post.content}}</p>
             </div>

@@ -1,5 +1,5 @@
 ---
-layout: news-article
+layout: post
 title: Yet Another Test Post
 meta: test post
 source: http://www.datadrivenjournalism.ru/
