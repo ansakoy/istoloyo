@@ -128,10 +128,18 @@ a:hover, a:active {
 
 .socialmedia {
     list-style-type: none;
+    margin: 0;
+    
 }
 
-.recentposts {
+.recentposts ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recentposts ul li  a{
+    display: block;
 }
 
 .socialmediaitem {
